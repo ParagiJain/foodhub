@@ -598,6 +598,26 @@ header .navbar a:hover{
 
 @media(max-width:768px){
 
+  .row{
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .row img{
+    width: 80%;
+  }
+  .row h1{
+    font-size: 5rem !important;
+  }
+  .row p{
+    font-size: 3rem !important
+  }
+  .row div{
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   #menu-bar{
     display: initial;
   }
