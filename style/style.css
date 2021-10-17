@@ -39,6 +39,9 @@ section{
   padding:1rem;
   color:#666;
 }
+.head span{
+  color:var(--red);
+}
 .heading{
   margin-top: 80px;
   text-align: center;
